@@ -138,16 +138,13 @@ canvas {
 }
 
 .search-form {
-    margin-top: 20px;
     width: 100%;
     max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     position: absolute;
-    top: 50%;
+    top: 65%;          /* lowered to push it down */
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -187,7 +184,7 @@ canvas {
         Lightspeed, ETC. So If Your New, Please Enjoy Yourself By Searching What You Wanna Do On The Menu.
     </div>
 
-    <!-- Aerus Search Bar (now only inside Home) -->
+    <!-- Aerus Search Bar (now only on Home) -->
     <form id="uv-form" class="search-form">
       <input id="uv-search-engine" value="https://duckduckgo.com/&q=%s" type="hidden"/> 
       <input id="uv-address" type="text" placeholder="Search DuckDuckGo or type a URL" class="search-input"/>
@@ -235,7 +232,6 @@ canvas {
             <img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/307.png" alt="Rainbow Obby">
             <div>Rainbow Obby</div>
         </div>
-        <!-- New Game: BLOODMONEY! -->
         <div class="game-button" id="bloodMoneyBtn">
             <img src="https://cdn.jsdelivr.net/gh/gn-math/covers@main/454.png" alt="BLOODMONEY!">
             <div>BLOODMONEY!</div>
