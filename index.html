@@ -170,7 +170,6 @@ canvas {
     border-color: #fff;
     box-shadow: 0 0 15px #fff, 0 0 30px #fff;
 }
-
 </style>
 </head>
 <body>
@@ -183,15 +182,17 @@ canvas {
 
 <div id="homePage" class="content page active">
     <div class="welcome-text">Welcome To Aerus</div>
-    <div class="description">This Website Is Full Of Stuff I Wont Say Because This Website Would Be Blocked By Securly, Lightspeed, ETC. So If Your New, Please Enjoy Yourself By Searching What You Wanna Do On The Menu.</div>
+    <div class="description">
+        This Website Is Full Of Stuff I Wont Say Because This Website Would Be Blocked By Securly,
+        Lightspeed, ETC. So If Your New, Please Enjoy Yourself By Searching What You Wanna Do On The Menu.
+    </div>
+
+    <!-- Aerus Search Bar (now only inside Home) -->
+    <form id="uv-form" class="search-form">
+      <input id="uv-search-engine" value="https://duckduckgo.com/&q=%s" type="hidden"/> 
+      <input id="uv-address" type="text" placeholder="Search DuckDuckGo or type a URL" class="search-input"/>
+    </form>
 </div>
-
-<!-- Aerus Search Bar -->
-<form id="uv-form" class="search-form">
-  <input id="uv-search-engine" value="https://duckduckgo.com/&q=%s" type="hidden"/> 
-  <input id="uv-address" type="text" placeholder="Search DuckDuckGo or type a URL" class="search-input"/>
-</form>
-
 
 <div id="gamesPage" class="content page">
     <div class="welcome-text">G4m3s</div>
